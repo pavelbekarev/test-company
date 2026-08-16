@@ -9,8 +9,8 @@ import Projects from '../../../components/Projects';
     <Header />
     <main>
         <MainBanner />
-        <!-- <Brands />
-        <Projects /> -->
+        <Brands />
+        <!-- <Projects /> -->
     </main>
     <!-- <Footer /> -->
 </template>
