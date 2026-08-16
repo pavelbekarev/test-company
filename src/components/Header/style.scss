@@ -1,12 +1,15 @@
 .header {
   width: 100%;
+  background-color: #fff;
+  padding-left: 10px;
 
   &__content {
     display: grid;
-    grid-template-columns: 322px 1275px 322px;
+    grid-template-columns: 322px 1260px 322px;
+    justify-content: center;
 
     &-item {
-      padding: 10px 0;
+      padding: 14px 0;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -26,6 +29,7 @@
       display: flex;
       flex-flow: row;
       gap: 2rem;
+      margin-left: 1rem;
     }
   }
 }
