@@ -1,0 +1,24 @@
+.brands {
+  min-height: 60vh;
+
+  &__content {
+    display: grid;
+    grid-template-columns: repeat(8, 254px);
+    overflow: hidden;
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    border-bottom: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+  }
+
+  &__img {
+    filter: grayscale(100%);
+  }
+}

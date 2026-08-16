@@ -1,5 +1,6 @@
 .mainBanner {
-  min-height: 80vh;
+  min-height: 100vh;
+  height: 100%;
 
   &::after {
     content: "";
@@ -27,7 +28,7 @@
   }
 
   &__title {
-    margin-top: 100px;
+    padding-top: 100px;
     padding-left: 6rem;
     font-family: "Arial", sans-serif;
     font-weight: 600;
@@ -46,10 +47,11 @@
   &__button {
     position: absolute;
     right: 9.75%;
-    bottom: 1%;
+    bottom: 3%;
     border: none;
     background: transparent;
     width: 216px;
     height: 216px;
+    cursor: pointer;
   }
 }
