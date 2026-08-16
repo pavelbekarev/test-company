@@ -12,5 +12,5 @@ import Projects from '../../../components/Projects';
         <Brands />
         <Projects />
     </main>
-    <!-- <Footer /> -->
+    <Footer />
 </template>
