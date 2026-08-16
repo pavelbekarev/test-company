@@ -1,11 +1,23 @@
 .header {
   width: 100%;
   background-color: #fff;
+  border-bottom: 1px solid #ebebeb;
 
   &__content {
     display: grid;
     grid-template-columns: 322px 1260px 322px;
     justify-content: center;
+
+    @media (max-width: 1800px) {
+      grid-template-columns: 0.2fr 0.6fr 0.2fr;
+    }
+
+    @media (max-width: 1024px) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+    }
 
     &-item {
       padding: 14px 0;
@@ -17,6 +29,14 @@
       &--middle {
         border-left: 1px solid #ebebeb;
         border-right: 1px solid #ebebeb;
+
+        @media (max-width: 1024px) {
+          display: none;
+        }
+      }
+
+      @media (max-width: 1024px) {
+        border: none;
       }
 
       &:first-child {
@@ -52,6 +72,10 @@
     font-weight: 500;
     font-family: "Onest";
   }
+
+  @media (max-width: 1024px) {
+    display: none;
+  }
 }
 
 .button {
@@ -75,4 +99,40 @@
 
 .discussButton {
   padding: 1rem 15.5px;
+
+  @media (max-width: 560px) {
+    display: none;
+  }
+}
+
+.burger-menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60px;
+  height: 40px;
+  cursor: pointer;
+  padding: 5px;
+
+  @media (max-width: 1024px) {
+    display: flex;
+  }
+}
+
+.burger-line {
+  display: block;
+  height: 4px;
+  background-color: #222222;
+  border-radius: 4px;
+}
+
+.top,
+.bottom {
+  width: 100%;
+}
+
+.middle {
+  width: 60%;
+  margin: 0 auto;
+  height: 3px;
 }
