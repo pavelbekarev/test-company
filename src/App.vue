@@ -5,3 +5,6 @@ import Home from './pages/Home/ui/Home.vue';
 <template>
     <Home />
 </template>
+<style lang="scss">
+@import url("./styles/style.scss");
+</style>
