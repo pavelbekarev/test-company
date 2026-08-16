@@ -15,4 +15,8 @@ html {
   max-width: 220rem;
   margin: 0 auto;
   padding: 0 10rem;
+
+  @media (max-width: 560px) {
+    padding: 0 2rem;
+  }
 }

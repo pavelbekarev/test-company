@@ -12,7 +12,7 @@
                         для сильных брендов</h2>
                 </div>
             </div>
-            <div class="footer__item">
+            <div class="footer__item footer__item--second">
                 <div class="footer__top">
                     <h3 class="footer__subtitle">02 // Услуги</h3>
                     <img src="/src/assets/square.png" alt="Иконка квадрата">
@@ -76,7 +76,7 @@
         </div>
 
         <div class="footer__copyrights">
-            <span class="footer__copyright">@ [2026] TestCompany.</span>
+            <span class="footer__copyright footer__copyright--first">@ [2026] TestCompany.</span>
             <a class="footer__copyright" href="/">Политика конфиденциальности</a>
             <a class="footer__copyright" href="/">Условия и положения</a>
         </div>

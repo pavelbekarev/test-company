@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Logo from '../../Logo';
 
+
 </script>
 <template>
     <header class="header">
@@ -30,6 +31,12 @@ import Logo from '../../Logo';
                 <button class="button">EN</button>
                 <button class="button discussButton button--accent">Обсудить</button>
             </div>
+            <div class="header__content-item burger-menu">
+                <span class="burger-line top"></span>
+                <span class="burger-line middle"></span>
+                <span class="burger-line bottom"></span>
+            </div>
+            
         </div>
     </header>
 </template>
