@@ -8,8 +8,8 @@ import Projects from '../../../components/Projects';
 <template>
     <Header />
     <main>
-        <!-- <MainBanner />
-        <Brands />
+        <MainBanner />
+        <!-- <Brands />
         <Projects /> -->
     </main>
     <!-- <Footer /> -->
