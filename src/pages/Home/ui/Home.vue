@@ -10,7 +10,7 @@ import Projects from '../../../components/Projects';
     <main>
         <MainBanner />
         <Brands />
-        <!-- <Projects /> -->
+        <Projects />
     </main>
     <!-- <Footer /> -->
 </template>
