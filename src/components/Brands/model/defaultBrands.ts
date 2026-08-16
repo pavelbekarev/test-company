@@ -7,30 +7,30 @@ export const defaultBrands: Brand[] = [
   },
   {
     id: 2,
-    path: "/src/assets/muiz.png",
+    path: "/brands/muiz.png",
   },
   {
     id: 3,
-    path: "/src/assets/tinkoff.png",
+    path: "/brands/tinkoff.png",
   },
   {
     id: 4,
-    path: "/src/assets/tomi-ai.png",
+    path: "/brands/tomi-ai.png",
   },
   {
     id: 5,
-    path: "/src/assets/energotek.png",
+    path: "/brands/energotek.png",
   },
   {
     id: 6,
-    path: "/src/assets/Genezis.png",
+    path: "/brands/Genezis.png",
   },
   {
     id: 7,
-    path: "/src/assets/PolarBear.png",
+    path: "/brands/PolarBear.png",
   },
   {
     id: 8,
-    path: "/src/assets/Ykigassen.png",
+    path: "/brands/Ykigassen.png",
   },
 ];

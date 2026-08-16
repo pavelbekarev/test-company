@@ -7,7 +7,7 @@ export const defaultProjects: Project[] = [
     description:
       "Ювелирный дом полного цикла  с собственным производством  и федеральной сетью магазинов.",
     advantages: ["Брендбук", "Презентация"],
-    imgPath: "/src/assets/project1.png",
+    imgPath: "/projects/project1.png",
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ export const defaultProjects: Project[] = [
     description:
       "Школа дизайна, моды и искусства НИУ ВШЭ. Лидер рейтинга Forbes по репутации у работодателей.",
     advantages: ["Упаковка", "7 концепций"],
-    imgPath: "/src/assets/project2.png",
+    imgPath: "/projects/project2.png",
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ export const defaultProjects: Project[] = [
     description:
       "Разработчик и производитель систем для прокладки и защиты кабельных линий.",
     advantages: ["3D", "AR-приложение"],
-    imgPath: "/src/assets/project3.png",
+    imgPath: "/projects/project3.png",
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ export const defaultProjects: Project[] = [
     description:
       "Культурно-образовательный проект, который знакомит школьников с 99 важными человеческими качествами  и помогает развивать их на практике.",
     advantages: ["Мерч", "Презентация"],
-    imgPath: "/src/assets/project4.png",
+    imgPath: "/projects/project4.png",
   },
   {
     id: 5,
@@ -39,6 +39,6 @@ export const defaultProjects: Project[] = [
     description:
       "Комплексное производство мерча  и промопродукции — от разработки концепции до передачи готового тиража клиенту.",
     advantages: ["Брендбук", "Логотип", "Сайт"],
-    imgPath: "/src/assets/project5.png",
+    imgPath: "/projects/project5.png",
   },
 ];
