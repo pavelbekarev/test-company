@@ -3,7 +3,7 @@ import type { Brand } from "./types";
 export const defaultBrands: Brand[] = [
   {
     id: 1,
-    path: "/src/assets/motorika.png",
+    path: "/brands/motorika.png",
   },
   {
     id: 2,
