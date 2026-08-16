@@ -4,6 +4,10 @@
   margin-top: 114px;
   background-color: #0181c8;
 
+  @media (max-width: 540px) {
+    min-height: 40vh;
+  }
+
   &__content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -62,6 +66,10 @@
         display: none;
       }
     }
+
+    @media (max-width: 540px) {
+      height: 288px;
+    }
   }
 
   &__title {
@@ -117,6 +125,12 @@
     color: #fff;
     text-decoration: none;
     line-height: 120%;
+    transition: transform 0.3s ease;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.05);
+    }
 
     &--phone {
       font-weight: 600;
@@ -145,6 +159,11 @@
     @media (max-width: 768px) {
       padding: 3rem 2rem;
     }
+
+    @media (max-width: 540px) {
+      margin-top: 0;
+      border-top: none;
+    }
   }
 
   &__copyright {
@@ -153,6 +172,12 @@
     font-weight: 500;
     color: #fff;
     text-decoration: none;
+    transition: transform 0.3s ease;
+
+    &:not(:first-child):hover,
+    &:not(:first-child):focus {
+      transform: scale(1.05);
+    }
 
     @media (max-width: 540px) {
       font-size: 12px;

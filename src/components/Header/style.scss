@@ -63,6 +63,12 @@
 
   &__item {
     list-style: none;
+    transition: transform 0.3s ease-out;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.05);
+    }
   }
 
   &__link {
@@ -90,6 +96,13 @@
   font-weight: 600;
   font-family: "Onest";
   font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.3s ease-out;
+
+  &:hover,
+  &:focus {
+    transform: scale(1.05);
+  }
 
   &--accent {
     background-color: #0181c8;

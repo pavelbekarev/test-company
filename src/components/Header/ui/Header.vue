@@ -36,7 +36,6 @@ import Logo from '../../Logo';
                 <span class="burger-line middle"></span>
                 <span class="burger-line bottom"></span>
             </div>
-            
         </div>
     </header>
 </template>

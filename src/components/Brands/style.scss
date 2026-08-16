@@ -16,6 +16,12 @@
     height: 170px;
     border-bottom: 1px solid #ededed;
     border-right: 1px solid #ededed;
+    transition: box-shadow 0.3s ease-out;
+
+    &:hover,
+    &:focus {
+      box-shadow: 0px 0px 15px -5px rgba(34, 60, 80, 0.3);
+    }
   }
 
   &__img {
