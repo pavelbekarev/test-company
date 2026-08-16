@@ -1,7 +1,6 @@
 .header {
   width: 100%;
   background-color: #fff;
-  padding-left: 10px;
 
   &__content {
     display: grid;
@@ -35,6 +34,7 @@
 }
 
 .nav {
+  padding-left: 10px;
   &__list {
     display: flex;
     flex-flow: row;
